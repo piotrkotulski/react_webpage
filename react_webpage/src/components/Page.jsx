@@ -38,7 +38,7 @@ const Page = () => {
       <section className="Second">
         <div className="containerSecond">
           <div className="containerInsideSecond">
-            <h1 id="oNas">Nasi specjaliści Kosmici</h1>
+            <h1 id="oNas">Nasi specjaliści</h1>
             <div className="specialists">
               <div className="firstSpec"></div>
               <div className="opis">
