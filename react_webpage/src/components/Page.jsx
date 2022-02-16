@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import React from "react";
 import Offer from "./Offer";
 
 
@@ -37,7 +38,7 @@ const Page = () => {
       <section className="Second">
         <div className="containerSecond">
           <div className="containerInsideSecond">
-            <h1 id="oNas">Nasi specjaliści</h1>
+            <h1 id="oNas">Nasi specjaliści Kosmici</h1>
             <div className="specialists">
               <div className="firstSpec"></div>
               <div className="opis">
@@ -68,7 +69,7 @@ const Page = () => {
       <section className="third">
         <div className="containerThird">
           <h1 id="offer">Czym Zajmuje się nasza firma?</h1>
-          {Offer()}
+          <Offer />
         </div>
       </section>
       <div className="footContainer">

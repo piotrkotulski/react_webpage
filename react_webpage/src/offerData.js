@@ -1,4 +1,4 @@
-const offer = [
+const offerData = [
         {id: 1, className: "box", name: "Oferta 1", isNew: true },
         {id: 2, className: "box", name: "Oferta 2", isNew: false },
         {id: 3, className: "box", name: "Oferta 3", isNew: false },
@@ -7,6 +7,6 @@ const offer = [
         {id: 6, className: "box", name: "Oferta 6", isNew: false },
       ];
       
-      export default offer;
+      export default offerData;
  
   
