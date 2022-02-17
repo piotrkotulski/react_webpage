@@ -8,7 +8,7 @@ const Page = () => {
     <div className="container">
       <nav className="flexbox">
         <a className="firma" href="aaa">
-          Firma
+          Firma React App
         </a>
         <ul>
           <li>
