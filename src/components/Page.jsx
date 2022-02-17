@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+
 import React from "react";
 import Offer from "./Offer";
 
@@ -42,8 +42,7 @@ const Page = () => {
             <div className="specialists">
               <div className="firstSpec"></div>
               <div className="opis">
-                <span class="bold">Imię Nazwisko [ dział ]</span>
-                <br></br>
+                <span className="bold">Imię Nazwisko [ dział ]</span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 vel massa et lacus egestas cursus a non magna. Fusce scelerisque
                 blandit nunc, id malesuada ex lobortis a. Integer felis nisi,
@@ -55,7 +54,6 @@ const Page = () => {
               <div className="secondSpec"></div>
               <div className="opis">
                 <span className="bold">Imię Nazwisko [ dział ]</span>
-                <br></br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 vel massa et lacus egestas cursus a non magna. Fusce scelerisque
                 blandit nunc, id malesuada ex lobortis a. Integer felis nisi,
