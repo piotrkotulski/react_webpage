@@ -7,7 +7,7 @@ const Page = () => {
   return (
     <div className="container">
       <nav className="flexbox">
-        <a className="firma" href="#">
+        <a className="firma" href="aaa">
           Firma
         </a>
         <ul>
@@ -18,7 +18,7 @@ const Page = () => {
             <a href="#offer">oferta</a>
           </li>
           <li>
-            <a href="#" lassName="notActive">
+            <a href="aaa" className="notActive">
               kontakt
             </a>
           </li>
